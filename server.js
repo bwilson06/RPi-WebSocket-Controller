@@ -20,6 +20,10 @@ app.use(express.static("public"));
 
 io.on('connection', (socket) => {
     console.log('a user connected');
+    socket.on("newState", function(state){
+        console.log(`State changed: ${state}`)
+        io.emit("updateState", state)
+    })
 });
 
 //starting server

@@ -1,0 +1,29 @@
+.mouse-canvas {
+    display: flex;
+    width: 650px;
+    height: 480px;
+    background-color: #c2c4c6;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.yo {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.camera-buttons {
+    font-size: .8rem !important;
+    padding-top: .2rem !important;
+    font-weight: bolder !important;
+}
+
+.value-slider{
+    margin-left: 3px;
+    margin-right: 3px;
+}
+
+#init-laser-btn {
+    vertical-align: middle !important;
+}
